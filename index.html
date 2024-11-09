@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdeli5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon " href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="home">
+                <div class="icon" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="a">Home</a>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library icon" style="opacity: 1;">
+                <div class="option">
+                    <div class="lib-icon">
+                        <img src="./assets/library_icon.png">
+                        <a href="a"> Your library</a>
+                    </div>
+                    <div class="arrow">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="p1">Create your first playlist</p>
+                        <p class="p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="p1">Lets find some podcast to follow</p>
+                        <p class="p2"> We'll keep you updated on new episodes </p>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+               <div class="nav-logo">
+                <img src="./assets/backward_icon.png">
+                <img src="./assets/forward_icon.png">
+               </div>
+               <div class="sticky-options">
+                <button class="badge item hide">Explore Premium</button>
+                <button class="badge item dark" ><i style="margin-right: 5px;" class="fa-regular fa-circle-down"></i>Intall APP</button>
+                <i class="fa-regular fa-user item"></i>
+               </div>
+            </div>
+
+           
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top-50 Global</p>
+                     <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+            </div>
+            
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/harelow.jpg" class="card-img">
+                    <p class="card-title">First Class</p>
+                    <p class="card-info">Jack Harlow</p>
+                </div>
+            
+
+                <div class="card">
+                    <img src="./assets/week.jpg" class="card-img">
+                    <p class="card-title">The Weekend Mix</p>
+                    <p class="card-info">Sza,Chris Brown and Artic Monkey</p>
+                </div>
+            
+            
+                <div class="card">
+                    <img src="./assets/rock.jpeg" class="card-img">
+                    <p class="card-title">Rockstar</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/lable.jpeg" class="card-img">
+                    <p class="card-title"></p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+            
+            
+                <div class="card">
+                    <img src="./assets/em.jpeg" class="card-img">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+
+            </div>
+
+            <h2>Featured Chart</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top-Songs Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top-Songs India</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+        </div>
+        <div class="musicbar">
+            <div class="lable">
+               <div><img src="./assets/lable.jpeg"></div>
+               <div class="name"><span id="p2">FUCKIT!!</span>
+                    <p id="p">Shaurya</p>
+               </div>
+               <div class="heart"><i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-notes-medical add"></i>
+               </div>
+            </div> 
+             
+            <div class="play">
+                <div class="opts">
+                    <img src="./assets/player_icon1.png" class="opt-icon">
+                    <img src="./assets/player_icon2.png" class="opt-icon">
+                    <img src="./assets/player_icon3.png" class="opt">
+                    <img src="./assets/player_icon4.png" class="opt-icon">
+                    <img src="./assets/player_icon5.png" class="opt-icon">
+                </div>
+                <div class="play-bar">
+                    <span class="str-time">00:00</span>
+                    <input type="range" min="0" max="100" class="range">
+                    <span class="end-time">3:00</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
+    </div>
+</body>
+</html>
